@@ -1,1 +1,9 @@
+Command:
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls | findstr "html_url state label full_name NaroX007"
 
+Output:
+"html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/XXX",
+"state": "open",
+"full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+"label": "NaroX007:bug-fix-typo",
+"full_name": "NaroX007/mcino-Introduction-to-Git-and-GitHub"
